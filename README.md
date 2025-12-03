@@ -3,10 +3,10 @@
 ## Features
 - Login demo screen (no backend)
 - Discover grid
-- Playlist sidebar
+- Playlist page
 - Now playing widget
 - Play / Pause / Prev / Next
-- Progress bar seek
+- Song progress bar
 - Volume slider
 - Real audio playback using remote sample mp3 files
 
