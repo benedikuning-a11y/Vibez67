@@ -1,0 +1,19 @@
+.app-grid {
+  display: grid;
+  grid-template-columns: 1fr 520px 380px; /* left, center (NowPlaying), right sidebar */
+  gap: 28px;
+  padding: 32px;
+  min-height: 100vh;
+}
+
+.left-col { grid-column: 1; }
+.center-col { grid-column: 2; display:flex; align-items:flex-start; justify-content:center; }
+.right-col { grid-column: 3; }
+
+.now-playing-card { width:100%; max-width:520px; background: rgba(255,255,255,0.03); padding:20px; border-radius:12px; }
+
+.profile-editor { display:flex; align-items:center; gap:12px; margin-bottom:20px; }
+.avatar-wrap { position:relative; }
+.avatar { width:64px; height:64px; border-radius:50%; object-fit:cover; }
+.avatar-btn { position:absolute; right:0; bottom:-8px; padding:6px 10px; border-radius:8px; }
+.name-input { padding:8px 10px; border-radius:8px; background:rgba(255,255,255,0.03); border:1px solid rgba(255,255,255,0.05); color:#fff; }
